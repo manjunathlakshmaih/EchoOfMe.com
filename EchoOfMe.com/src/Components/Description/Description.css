@@ -1,0 +1,18 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20vh;
+  margin-top: 10rem;
+}
+.desc_row_1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center ;
+}
+
+.Description_Image{
+  width: 33rem;
+  height: 33rem;
+}

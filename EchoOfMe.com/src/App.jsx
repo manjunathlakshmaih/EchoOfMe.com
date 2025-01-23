@@ -1,5 +1,6 @@
 import "./App.css";
 import NavMenue from "./Components/Navmenu/NavMenu";
+import Description from "./Components/Description/Description";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <div className="Navmaue_fld">
         <NavMenue />
       </div>
+      <Description />
     </div>
   );
 }

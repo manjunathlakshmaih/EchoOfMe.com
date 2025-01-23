@@ -21,6 +21,7 @@
   font-family: math;
   padding: 10px;
   color: grey;
+  font-weight: 500;
 }
 
 .items:hover {
