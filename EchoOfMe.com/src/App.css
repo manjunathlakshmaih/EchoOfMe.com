@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.Navmaue_fld {
+  border-bottom: 3px solid rgb(81, 75, 75);
+}

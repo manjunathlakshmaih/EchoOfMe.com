@@ -1,0 +1,47 @@
+.Navmenu_fld {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_click_items {
+  display: flex;
+  flex-direction: row;
+}
+.item_list {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+
+.items {
+  list-style: none;
+  font-size: 19px;
+  font-family: math;
+  padding: 10px;
+  color: grey;
+}
+
+.items:hover {
+  cursor: pointer;
+  color: rgb(79, 67, 67);
+}
+
+.logo_img {
+  width: 73px;
+  height: 51px;
+}
+
+.icons_fld {
+  display: flex;
+  gap: 2px;
+  margin-top: 3px;
+  margin-right: 24px;
+}
+
+.links {
+  width: 30px;
+  height: 33px;
+  margin-left: 10px;
+}
