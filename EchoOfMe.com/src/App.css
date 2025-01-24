@@ -2,8 +2,9 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  /* background-color: black; */
 }
 
 .Navmaue_fld {
-  border-bottom: 3px solid rgb(81, 75, 75);
+  border-bottom: 3px solid rgb(45, 42, 42);
 }

@@ -1,6 +1,7 @@
 .Navmenu_fld {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -20,13 +21,13 @@
   font-size: 19px;
   font-family: math;
   padding: 10px;
-  color: grey;
+  color: white;
   font-weight: 500;
 }
 
 .items:hover {
   cursor: pointer;
-  color: rgb(79, 67, 67);
+  color: black;
 }
 
 .logo_img {
