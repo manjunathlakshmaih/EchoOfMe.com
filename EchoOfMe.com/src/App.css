@@ -33,7 +33,7 @@
   width: 100%;
 }
 
-button {
+.close_btn{
   margin-top: 20px;
   padding: 10px;
   background-color: #007bff;
@@ -42,6 +42,6 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.close_btn:hover {
   background-color: #0056b3;
 }

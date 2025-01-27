@@ -22,7 +22,7 @@ const NavMenue = ({ openModal }) => {
           {Items.map((item, index) => (
             <li className="items" key={index}>
               {item.link === "#" ? (
-                <button onClick={item.onClick}>{item.name}</button>  
+                <button className= 'nav_btn' onClick={item.onClick}>{item.name}</button>  
               ) : (
                 <Link to={item.link}>{item.name}</Link>  
               )}

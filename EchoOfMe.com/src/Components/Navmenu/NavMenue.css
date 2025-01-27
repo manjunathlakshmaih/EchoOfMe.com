@@ -9,36 +9,37 @@
 .nav_click_items {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  gap: 19px;
 }
 
 .item_list {
   display: flex;
   flex-direction: row;
-  gap: 19px;
+  gap: 35px;
+  margin-top: 6px;
 }
 
 .items {
   list-style: none;
   font-size: 19px;
   font-family: math;
-  padding: 10px;
   color: white;
   font-weight: 500;
 }
 
-/* Styling for Link component */
 .items a {
-  text-decoration: none; /* Remove default underline */
-  color: inherit; /* Inherit the color from parent (white) */
+  text-decoration: none;
+  color: inherit;
 }
 
 .items a:hover {
   cursor: pointer;
-  color: black; /* Change color on hover */
+  color: black;
 }
 
 .items a:active {
-  color: gray; /* Add an active state color */
+  color: gray;
 }
 
 .logo_img {
@@ -57,4 +58,19 @@
   width: 30px;
   height: 33px;
   margin-left: 10px;
+}
+
+.nav_btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  transition: transform 0.3s ease-in-out
+}
+
+.nav_btn:hover {
+  color: black; 
+  cursor: pointer;
+  transform: scale(1.1);
 }

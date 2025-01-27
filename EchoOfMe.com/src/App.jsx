@@ -32,7 +32,7 @@ function App() {
           overlayClassName="modal-overlay"  
         >
           <About />  
-          <button onClick={closeModal}>Close</button> 
+          <button className="close_btn" onClick={closeModal}>Close</button> 
         </Modal>
       </div>
     </Router>
