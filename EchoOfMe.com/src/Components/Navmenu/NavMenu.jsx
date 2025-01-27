@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Icon from "../Icon/Icon";
 import Logo from "../../assets/M-logo.png";
-import linkedin from "../../assets/icon-1.png";
-import gitub from "../../assets/icon-2.png";
+import linkedin from "../../assets/LI-In-Bug.png";
+import gitub from "../../assets/github.png";
+
 import "./NavMenue.css";
 
 const NavMenue = ({ openModal }) => {  
@@ -30,7 +31,7 @@ const NavMenue = ({ openModal }) => {
           ))}
         </ul>
         <div className="icons_fld">
-          <Icon image={linkedin} alt="linkedin" className="links" links='https://www.linkedin.com/notifications/?filter=all'  />
+          <Icon image={linkedin} alt="linkedin" className="linkedin" links='https://www.linkedin.com/notifications/?filter=all'  />
           <Icon image={gitub} alt="gitub" className="links" links='https://github.com/manjunathlakshmaih' />
         </div>
       </div>
