@@ -49,9 +49,19 @@
 
 .icons_fld {
   display: flex;
-  gap: 2px;
-  margin-top: 3px;
-  margin-right: 24px;
+  gap: 13px;
+  padding-right: 21px;
+  margin-top: 8px;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.icon-blink {
+  animation: blink 0.5s infinite;
 }
 
 .links {
@@ -66,11 +76,11 @@
   border: none;
   cursor: pointer;
   font-size: 17px;
-  transition: transform 0.3s ease-in-out
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav_btn:hover {
-  color: black; 
+  color: black;
   cursor: pointer;
   transform: scale(1.1);
 }

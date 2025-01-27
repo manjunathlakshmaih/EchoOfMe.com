@@ -30,8 +30,8 @@ const NavMenue = ({ openModal }) => {
           ))}
         </ul>
         <div className="icons_fld">
-          <Icon image={linkedin} alt="linkedin" className="links" />
-          <Icon image={gitub} alt="gitub" className="links" />
+          <Icon image={linkedin} alt="linkedin" className="links" links='https://www.linkedin.com/notifications/?filter=all'  />
+          <Icon image={gitub} alt="gitub" className="links" links='https://github.com/manjunathlakshmaih' />
         </div>
       </div>
     </nav>
