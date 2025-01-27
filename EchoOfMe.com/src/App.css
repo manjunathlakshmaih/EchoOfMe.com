@@ -5,16 +5,15 @@
 }
 
 .Navmaue_fld {
-  border-bottom: 3px solid rgb(45, 42, 42);
+  border-bottom: 3px solid rgb(128, 125, 125);
 }
 
 .about_me_part {
   margin-top: 30px;
 }
 
-/* Modal Styling */
 .modal-overlay {
-  background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);  
   position: fixed;
   top: 0;
   left: 0;

@@ -80,7 +80,7 @@
 }
 
 .nav_btn:hover {
-  color: black;
+  color: rgb(155, 199, 244);
   cursor: pointer;
   transform: scale(1.1);
 }
