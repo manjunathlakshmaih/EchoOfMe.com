@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .item_list {
   display: flex;
   flex-direction: row;
@@ -25,9 +26,19 @@
   font-weight: 500;
 }
 
-.items:hover {
+/* Styling for Link component */
+.items a {
+  text-decoration: none; /* Remove default underline */
+  color: inherit; /* Inherit the color from parent (white) */
+}
+
+.items a:hover {
   cursor: pointer;
-  color: black;
+  color: black; /* Change color on hover */
+}
+
+.items a:active {
+  color: gray; /* Add an active state color */
 }
 
 .logo_img {

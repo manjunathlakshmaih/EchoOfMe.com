@@ -105,3 +105,69 @@ h2 {
 .button_1:hover .icon {
   transform: rotate(360deg);
 } 
+
+/* Description.css */
+
+/* Description.css */
+
+/* General button styling */
+.motion_button {
+  background: linear-gradient(135deg, #3498db, #00bcd4); /* Blue-to-Cyan Gradient */
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px; /* Rounded edges for a modern look */
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase; /* Capitalize text */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px; /* Space between the text and icon */
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow to make the button stand out */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Button text and icon positioning */
+.motion_button .icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+}
+
+/* Hover effect for button */
+.motion_button:hover {
+  transform: scale(1.1); /* Slightly increase button size */
+}
+
+.motion_button:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(0, 188, 212, 0.5); /* Cyan glowing effect */
+  border-radius: 50%;
+  transition: width 0.3s, height 0.3s;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.motion_button:hover:before {
+  width: 400%;
+  height: 400%;
+}
+
+.motion_button span {
+  position: relative;
+  z-index: 1;
+}
+
+/* Add a glow effect for the button on hover */
+.motion_button:hover {
+  box-shadow: 0 0 15px rgba(0, 188, 212, 0.6), 0 0 40px rgba(0, 188, 212, 0.6);
+  background-color: #00bcd4;
+}
