@@ -93,7 +93,7 @@ const projectSection = () => {
         ))}
       </div>
       {location.pathname === "/projects" ? (
-        <button className="show-more-btn" onClick={handleShowMoreClick}>
+        <button className="view-more-btn" onClick={handleShowMoreClick}>
           {showAll ? "Show Less <<" : "Show More >>"}
         </button>
       ) : (
