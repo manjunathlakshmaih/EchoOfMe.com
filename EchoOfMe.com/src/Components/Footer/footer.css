@@ -1,0 +1,43 @@
+/* Footer.css */
+.footer {
+  background-color: transparent;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 19px;
+  margin: 0;
+  background: linear-gradient(to right, rgb(141 2 2), rgb(210 255 0));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.quick-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.quick-links li {
+  font-size: 1rem;
+}
+
+.quick-links a {
+  text-decoration: none;
+  color: #ececf3; 
+  transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+  color: #ff7e5f;
+}

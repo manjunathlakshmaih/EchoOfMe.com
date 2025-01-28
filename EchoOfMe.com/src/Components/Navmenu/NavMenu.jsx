@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Icon from "../Icon/Icon";
-import Logo from "../../assets/M-logo.png";
+import Logo from "../../assets/m-svgrepo-com.svg";
 import linkedin from "../../assets/LI-In-Bug.png";
 import gitub from "../../assets/github.png";
 
@@ -9,10 +9,10 @@ import "./NavMenue.css";
 
 const NavMenue = ({ openModal }) => {  
   const Items = [
-    { name: "Home", link: "#", onClick: openModal },
-    { name: "Project", link: "#", onClick: openModal },
-    { name: "About", link: "#", onClick: openModal },  
-    { name: "Contact", link: "#", onClick: openModal },
+    { name: "Home", link: "/", onClick: openModal },
+    { name: "Project", link: "/projects", onClick: openModal },
+    { name: "About", link: "/about", onClick: openModal },  
+    { name: "Contact", link: "/contact", onClick: openModal },
   ];
 
   return (
@@ -23,7 +23,7 @@ const NavMenue = ({ openModal }) => {
           {Items.map((item, index) => (
             <li className="items" key={index}>
               {item.link === "#" ? (
-                <button className= 'nav_btn' onClick={item.onClick}>{item.name}</button>  
+                <button className='nav_btn' onClick={item.onClick}>{item.name}</button>  
               ) : (
                 <Link to={item.link}>{item.name}</Link>  
               )}

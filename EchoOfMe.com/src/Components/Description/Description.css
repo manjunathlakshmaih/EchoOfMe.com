@@ -30,18 +30,22 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-h2 {
-  line-height: 57px;
-  font-size: 35px;
+.description_hellow {
+  font-size: 40px;
+  font-weight: bold;
   font-family: "Georgia", serif;
-  color: #4ecca3;
+  background: linear-gradient(to right, rgb(29 2 141), rgb(0 255 179 / 75%));
+  -webkit-background-clip: text;
+  color: transparent;
   margin-bottom: 0;
 }
 
 .introduction {
   line-height: 3rem;
   font-family: "Helvetica", sans-serif;
-  color: #f1f1f1;
+  background: linear-gradient(to right, rgb(6 175 10), rgb(205 23 221));
+  -webkit-background-clip: text;
+  color: transparent;
   margin-top: 10px;
 }
 
@@ -50,7 +54,9 @@ h2 {
   margin-bottom: 30px;
   margin-top: 12px;
   text-align: center;
-  color: #bbb; 
+  background: linear-gradient(to right, rgb(141 2 2), rgb(210 255 0));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .button_flds {
@@ -62,98 +68,33 @@ h2 {
   margin-top: 30px;
 }
 
-.button_1 {
-  width: 12rem;
-  height: 45px;
-  padding: 10px;
-  border: 2px solid #e7660a;
-  border-radius: 25px;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  background: rgb(234, 117, 74);
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s ease-in-out;
-}
-
-.button_1:hover {
-  color: black;
-  background-color: white;
-  cursor: pointer;
-  transform: scale(1.05); 
-}
-
-.button_1:focus {
-  outline: none;
-}
-
-.button_1:active {
-  background-color: #ffbf00;
-}
-
-
-.icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.button_1:hover .icon {
-  transform: rotate(360deg);
-} 
-
-/* Description.css */
-
-/* Description.css */
-
-/* General button styling */
 .motion_button {
-  background: linear-gradient(135deg, #3498db, #00bcd4); /* Blue-to-Cyan Gradient */
+  background: linear-gradient(to right, #515050, #0e0e0e );  
   color: white;
   padding: 12px 30px;
   border: none;
-  border-radius: 50px; /* Rounded edges for a modern look */
+  border-radius: 50px; 
   font-size: 16px;
   font-weight: 600;
-  text-transform: uppercase; /* Capitalize text */
+  text-transform: uppercase; 
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px; /* Space between the text and icon */
+  gap: 12px; 
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Soft shadow to make the button stand out */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); 
   position: relative;
   overflow: hidden;
 }
 
-/* Button text and icon positioning */
 .motion_button .icon {
-  width: 20px; /* Adjust icon size */
+  width: 20px; 
   height: 20px;
 }
 
-/* Hover effect for button */
 .motion_button:hover {
-  transform: scale(1.1); /* Slightly increase button size */
-}
-
-.motion_button:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 300%;
-  height: 300%;
-  background: rgba(0, 188, 212, 0.5); /* Cyan glowing effect */
-  border-radius: 50%;
-  transition: width 0.3s, height 0.3s;
-  transform: translate(-50%, -50%);
-  z-index: 0;
+  transform: scale(1.1); 
 }
 
 .motion_button:hover:before {
@@ -166,8 +107,7 @@ h2 {
   z-index: 1;
 }
 
-/* Add a glow effect for the button on hover */
 .motion_button:hover {
-  box-shadow: 0 0 15px rgba(0, 188, 212, 0.6), 0 0 40px rgba(0, 188, 212, 0.6);
-  background-color: #00bcd4;
+  box-shadow: 0 0 15px rgba(26, 94, 103, 0.6), 0 0 40px rgba(14, 74, 82, 0.6);
+  background: linear-gradient(to right, #162261, #380c2f ); 
 }

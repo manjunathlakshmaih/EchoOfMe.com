@@ -1,25 +1,24 @@
 /* Base container style */
 .projects-container {
-  padding: 3rem;
-  max-width: 1600px;
-  margin: 0 auto;
+  padding: 2rem;
+  max-width:  1390px;
+  /* margin: 0 auto; */
   text-align: center;
-  background-color: #2c3e50;
+  background-color: #3f4346;
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   color: #ecf0f1;
+  margin-top: 40px;
 }
 
-/* Heading style */
 .projects-container h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
   color: #ecf0f1;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Project grid layout */
 .projects-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -28,7 +27,21 @@
   transition: transform 0.3s ease-in-out;
 }
 
-/* Responsive design for tablets and mobile screens */
+.skills_field {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 13px;
+}
+
+.skils {
+  background-color: #bdc3c7;
+  padding: 5px;
+  border-radius: 8px;
+}
+
 @media (max-width: 1200px) {
   .projects-list {
     grid-template-columns: repeat(2, 1fr);
@@ -43,7 +56,7 @@
 
 /* Project card styles */
 .project-card {
-  background-color: #34495e;
+  background-color: #3c3c3d;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -52,7 +65,7 @@
 }
 
 .project-card h3 {
-  font-size: 1.5rem;
+  font-size: 18px;
   margin-bottom: 0.5rem;
   color: #ecf0f1;
   font-weight: 500;
@@ -92,24 +105,49 @@
 /* Show more button styles */
 .show-more-btn {
   padding: 12px 25px;
-  background-color: #2980b9;
+  background: linear-gradient(to right, #515050, #0e0e0e ); 
   color: white;
   border: none;
   border-radius: 30px;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 550;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .show-more-btn:hover {
-  background-color: #3498db;
+  background: linear-gradient(to right, #162261, #380c2f ); 
   transform: translateY(-5px);
 }
 
 /* Responsive design for show more button */
 @media (max-width: 768px) {
   .show-more-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+.view-more-btn {
+  padding: 12px 25px;
+  background: linear-gradient(to right, #515050, #0e0e0e ); 
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.view-more-btn:hover {
+  background: linear-gradient(to right, #162261, #380c2f ); 
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .view-more-btn {
     font-size: 1rem;
     padding: 10px 20px;
   }

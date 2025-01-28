@@ -35,7 +35,7 @@
 
 .items a:hover {
   cursor: pointer;
-  color: black;
+  color: rgb(17, 66, 31);
 }
 
 .items a:active {
