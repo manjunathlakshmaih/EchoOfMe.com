@@ -115,6 +115,47 @@
   background: linear-gradient(to right, #162261, #380c2f);
 }
 
+/* Media Query for medium screens between 770px and 1264px */
+@media (max-width: 1264px) and (min-width: 770px) {
+  .description {
+    flex-direction: row; /* Keep it as row on medium screens */
+    justify-content: space-between;
+    padding: 0 3rem; /* Padding adjusted for larger medium screens */
+    margin-top: 4rem; /* Reduced margin for medium screens */
+  }
+
+  .desc_row_1 {
+    max-width: 45%; /* Reduced width for better alignment */
+    padding-right: 4rem; /* Adjusted padding to keep alignment */
+    text-align: left; /* Text aligned left to match layout */
+    margin-bottom: 20px;
+  }
+
+  .image_fld {
+    padding-left: 4rem; /* Adjusted for better spacing */
+    margin-top: 0; /* Adjusted margin */
+  }
+
+  .Description_Image {
+    width: 22rem; /* Adjusted for medium screens */
+    height: 22rem; /* Adjusted for medium screens */
+  }
+
+  .motion_button {
+    font-size: 15px; /* Adjusted font size for buttons */
+    padding: 10px 28px; /* Adjusted padding for medium screens */
+  }
+
+  .button_flds {
+    gap: 2rem; /* Increased gap between buttons */
+  }
+
+  .details_fld {
+    font-size: 17px; /* Slightly reduced font size for medium screens */
+  }
+}
+
+/* Media Query for smaller screens (less than 768px) */
 @media (max-width: 768px) {
   .description {
     flex-direction: column;
