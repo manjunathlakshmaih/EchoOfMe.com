@@ -56,7 +56,6 @@
   }
 }
 
-/* Project card styles */
 .project-card {
   background: linear-gradient(to right, rgb(27 30 48), rgb(16 62 58));
   padding: 1.5rem;
@@ -81,7 +80,6 @@
   transition: color 0.3s ease;
 }
 
-/* Image inside the project card */
 .project_img_fld {
   width: 100%;
   height: 12rem;
@@ -91,7 +89,6 @@
   transition: transform 0.3s ease;
 }
 
-/* Hover effects for project cards */
 .project-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
@@ -105,7 +102,6 @@
   color: #ecf0f1;
 }
 
-/* Show more button styles */
 .show-more-btn {
   padding: 12px 25px;
   background: linear-gradient(to right, #515050, #0e0e0e ); 
@@ -123,7 +119,6 @@
   transform: translateY(-5px);
 }
 
-/* Responsive design for show more button */
 @media (max-width: 768px) {
   .show-more-btn {
     font-size: 1rem;
