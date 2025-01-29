@@ -115,47 +115,46 @@
   background: linear-gradient(to right, #162261, #380c2f);
 }
 
-/* Media Query for medium screens between 770px and 1264px */
 @media (max-width: 1264px) and (min-width: 770px) {
   .description {
-    flex-direction: row; /* Keep it as row on medium screens */
+    flex-direction: row; 
     justify-content: space-between;
-    padding: 0 3rem; /* Padding adjusted for larger medium screens */
-    margin-top: 4rem; /* Reduced margin for medium screens */
+    padding: 0 3rem; 
+    margin-top: 4rem; 
   }
 
   .desc_row_1 {
-    max-width: 45%; /* Reduced width for better alignment */
-    padding-right: 4rem; /* Adjusted padding to keep alignment */
-    text-align: left; /* Text aligned left to match layout */
+    max-width: 45%; 
+    padding-right: 4rem; 
+    text-align: left; 
     margin-bottom: 20px;
   }
 
   .image_fld {
-    padding-left: 4rem; /* Adjusted for better spacing */
-    margin-top: 0; /* Adjusted margin */
+    padding-left: 4rem; 
+    margin-top: 0;
   }
 
   .Description_Image {
-    width: 22rem; /* Adjusted for medium screens */
-    height: 22rem; /* Adjusted for medium screens */
+    width: 22rem;
+    height: 22rem;
   }
 
   .motion_button {
-    font-size: 15px; /* Adjusted font size for buttons */
-    padding: 10px 28px; /* Adjusted padding for medium screens */
+    font-size: 15px; 
+    padding: 10px 28px; 
   }
 
   .button_flds {
-    gap: 2rem; /* Increased gap between buttons */
+    gap: 2rem; 
   }
 
   .details_fld {
-    font-size: 17px; /* Slightly reduced font size for medium screens */
+    font-size: 17px; 
   }
 }
 
-/* Media Query for smaller screens (less than 768px) */
+
 @media (max-width: 768px) {
   .description {
     flex-direction: column;
