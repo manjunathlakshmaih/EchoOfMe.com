@@ -1,10 +1,9 @@
-/* Base container style */
+
 .projects-container {
   padding: 2rem;
   max-width:  1390px;
-  /* margin: 0 auto; */
   text-align: center;
-  background-color: #3f4346;
+  background: linear-gradient(to right, rgb(134 136 146), rgb(8 30 28));
   border-radius: 15px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   color: #ecf0f1;
@@ -15,9 +14,12 @@
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 2rem;
-  color: #ecf0f1;
-  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  color: transparent; 
+  background: linear-gradient(to right, rgb(4, 241, 158), rgb(190, 231, 7));
+  -webkit-background-clip: text; 
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
 }
+
 
 .projects-list {
   display: grid;
@@ -37,7 +39,7 @@
 }
 
 .skils {
-  background-color: #bdc3c7;
+  background: linear-gradient(to right, #3f415e, #8289e7);
   padding: 5px;
   border-radius: 8px;
 }
@@ -56,7 +58,7 @@
 
 /* Project card styles */
 .project-card {
-  background-color: #3c3c3d;
+  background: linear-gradient(to right, rgb(27 30 48), rgb(16 62 58));
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
@@ -67,7 +69,8 @@
 .project-card h3 {
   font-size: 18px;
   margin-bottom: 0.5rem;
-  color: #ecf0f1;
+  background: linear-gradient(to right, rgb(141 2 2), rgb(210 255 0));
+  -webkit-background-clip: text;
   font-weight: 500;
 }
 

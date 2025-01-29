@@ -66,12 +66,12 @@ const projectSection = () => {
   };
 
   const handleViewMoreClick = () => {
-    navigate("/projects"); // Navigate to /projects page
+    navigate("/projects");
   };
 
   return (
     <div className="projects-container">
-      <h1>My Projects</h1>
+      <h1 className="project-heading">My Projects</h1>
       <div className="projects-list">
         {projects.slice(0, showAll ? projects.length : 3).map((project) => (
           <div key={project.id} className="project-card">
