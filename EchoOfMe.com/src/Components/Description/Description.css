@@ -115,7 +115,7 @@
   background: linear-gradient(to right, #162261, #380c2f);
 }
 
-@media (max-width: 1264px) and (min-width: 770px) {
+@media (max-width: 1264px) and (min-width: 999px) {
   .description {
     flex-direction: row; 
     justify-content: space-between;
@@ -151,6 +151,49 @@
 
   .details_fld {
     font-size: 17px; 
+  }
+}
+
+@media (max-width: 998px) {
+  .description {
+    flex-direction: column;
+    padding: 0 1rem; 
+    margin-top: 4rem; 
+  }
+
+  .desc_row_1 {
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .image_fld {
+    padding-left: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; 
+  }
+
+  .Description_Image {
+    width: 18rem; 
+    height: 18rem;
+  }
+
+  .motion_button {
+    width: 100%;
+    font-size: 14px; 
+    padding: 10px 25px;
+    margin-bottom: 10px;
+  }
+
+  .button_flds {
+    flex-direction: column; 
+    gap: 1rem;
+  }
+
+  .details_fld {
+    font-size: 16px; 
   }
 }
 
